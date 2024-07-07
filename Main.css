@@ -1,0 +1,395 @@
+.Cat2 {
+	position:absolute;
+	top:300;
+   left: -700;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+body{
+	margin:10;
+	padding:10;
+	
+}
+.BAR{
+	background:rgb(77, 233, 217);
+	
+	border-radius:50px;
+	text-align: right;
+	
+}
+ .BAR li{
+	display:inline-block;
+	padding:25;
+	
+	color:white;
+	font-style:bold;
+	
+}
+.BAR li:hover{
+ 
+ 
+    text-decoration: none;
+    color: red;
+	font-style:bold;
+	background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+ 
+
+.down{display:none;}
+
+.BAR li:hover .down{
+	position:absolute;
+	display:block;
+
+}
+.down .BAR{
+	margin:0;
+	padding:0;
+	border-radius:10px;
+	margin-left:-20px;
+	margin-top:20px;
+	
+	
+}
+.down .BAR li{
+	display:block;
+	
+	
+}
+#logo{
+	position: absolute;
+   top: 20;
+   left: 46;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 210px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.Adopt{
+	margin:30px auto;
+	align-items:center;
+	padding:50px;
+}
+.Adopt1{
+	margin:30px auto;
+	align-items:center;
+	padding:50px;
+}
+:root {
+  --box_shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  --background_color:rgb(255,181,71); /* Change this to your desired background color */
+}
+
+.Adopt .box {
+  box-shadow: var(--box_shadow);
+  padding: 20px;
+  text-align: center;
+  background-color:rgb(255,181,71);
+}
+.Adopt1 .box {
+  box-shadow: var(--box_shadow);
+  padding: 30px;
+  text-align: center;
+  background-color:rgb(255,181,71);
+}
+
+.btn-9 {
+	align-items:left;
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+	font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+ font-size:20px;
+
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+.btn-9:hover {
+  transition: all 0.3s ease;
+  background: transparent;
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  color: #fff;
+}
+.btn-9:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+	font-style:bold;
+}
+a:hover{
+    
+    color: rgb(0, 179, 255);
+	
+}
+h5{
+	font-size:20;
+}
+h6{
+	font-size:20;
+}
+
+
+p{
+	color:black;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(77, 233, 217);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(47, 148, 250);
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(3, 255, 142);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-col .social-links a i{
+    position: relative;  
+	top:15;
+}
+.Cat2 {
+	position:absolute;
+	top:200;
+   left: 425;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.Cat3 {
+	position:absolute;
+	top:200;
+   left: 700;
+Font-size:20px;
+margin:2px;
+}
+ .Cat4 {
+	position:absolute;
+	top:200;
+   left: 975;
+   Font-size:20px;
+  font-family:sans-serif;
+} .Cat5 {
+	position:absolute;
+	top:745;
+   left: 1000;
+   Font-size:20px;
+  font-family:sans-serif;
+} .Cat6 {
+	position:absolute;
+	top:745;
+   left: 425;
+   Font-size:20px;
+  font-family:sans-serif;
+} .Cat7{
+		position:absolute;
+	top:745;
+   left: 700;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.Cat1{
+	font-style:bold;
+	font-family:sans-serif;
+}
+.Cat10{
+	position:absolute;
+	top:1225;
+   left:425;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.Cat11{
+	position:absolute;
+	top:1225;
+   left: 700;
+   Font-size:20px;
+  font-family:sans-serif;
+}.Cat12{
+	position:absolute;
+	top:1225;
+   left: 975;
+   Font-size:20px;
+  font-family:sans-serif;
+}.Cat14{
+	position:absolute;
+	top:1700;
+   left: 425;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.Cat15{
+	position:absolute;
+	top:1700;
+   left: 700;
+   Font-size:20px;
+  font-family:sans-serif;
+}.Cat16{
+	position:absolute;
+	top:1700;
+   left: 975;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.Cat20{
+	position:absolute;
+	top:1335;
+   left:1200;
+   Font-size:20px;
+  font-family:sans-serif;
+}
+.DogS{
+	position:relative;
+	text-align:center; 
+	background:#FF9101;
+}
+html {
+	font-size: 10px;
+	font-size: calc(5px + 0.4vw);
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+	font-size: 1rem;
+	
+  
+}
+.Cat1{
+	position: relative;
+	left: 1;
+	top:35;
+}
+.Cat0{
+	position: relative;
+	left: 1;
+	top:-50;
+}
+.Cat18{
+	position: relative;
+	left: 1;
+	top:27;
+}
+.Cat17{
+	position: relative;
+	left: 1;
+	top:20;
+}
+marquee{
+	font-size: medium;
+}
+
